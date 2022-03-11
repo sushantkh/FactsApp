@@ -1,4 +1,4 @@
-# FactsApp
+# FactsApp : Master is active branch
 
 MVVM
 MainActivity (View)
