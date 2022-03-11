@@ -24,7 +24,8 @@ class FactsAdapter(val list: List<Rows>) : RecyclerView.Adapter<FactsAdapter.Pos
             {
                 binding.tvTitle.text=this.title
                 binding.tvDecription.text=this.description
-                binding.imageView.load(this.imageHref)
+               // binding.imageView.load(this.imageHref) // imageHref are not getting loaded so added dummy url for all rows.
+                binding.imageView.load("https://i.imgur.com/tGbaZCY.jpg")
             }
         }
     }
